@@ -1,11 +1,10 @@
 name-template: 'v$NEXT_PATCH_VERSION 🌈'
 tag-template: 'v$NEXT_PATCH_VERSION'
-prerelease: true
 exclude-labels:
   - 'skip-changelog'
   - 'release'
 categories:
-  - title: '🚀 Features'
+  - title: '🚀 New features and improvements'
     labels:
       - 'new'
       - 'feature'
@@ -15,13 +14,10 @@ categories:
       - 'fix'
       - 'bugfix'
       - 'bug'
-  - title: '📖 Docs'
+  - title: '📖 Documentation'
     labels:
       - 'docs'
       - 'documentation'
-  - title: '📦 Dependencies'
-    labels:
-      - 'dependencies'
   - title: '🧰 Maintenance'
     label: 'chore'
 change-template: '- #$NUMBER: $TITLE (@$AUTHOR)'
