@@ -51,7 +51,7 @@
         <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
         <quarkus.platform.version>1.10.0.Final</quarkus.platform.version>
         <quarkus-plugin.version>1.10.0.Final</quarkus-plugin.version>
-        <assertj-core.version>3.18.1</assertj-core.version>
+        <assertj-core.version>3.27.7</assertj-core.version>
         <quarkus.container-image.group>quarkus-qe</quarkus.container-image.group>
     </properties>
 
